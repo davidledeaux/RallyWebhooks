@@ -1,0 +1,816 @@
+{
+	"message": {
+		"object_id": "4c9107c0-d7ce-44de-b50b-9e018b50dcaa",
+		"ref": "https://us1.rallydev.com/slm/webservice/v2.x/defect/4c9107c0-d7ce-44de-b50b-9e018b50dcaa",
+		"object_type": "Defect",
+		"transaction": {
+			"trace_id": "add30734-827e-4709-9934-51f8d047baed",
+			"timestamp": 1547683564906,
+			"user": {
+				"uuid": "ae784947-d29d-4cf4-8ed0-e64ab75487eb",
+				"username": "REDACTED@rallydev.com",
+				"email": "REDACTED@ca.com"
+			},
+			"message_id": "200dc445-2052-4ed4-aff8-791660503c17",
+			"parent_span_id": "bc4d8caf-f831-4f73-9dd2-1b1d9d225682",
+			"span_id": "bebbef3c-9801-437a-be3e-6b0611406261",
+			"message_lag": 65
+		},
+		"state": {
+			"c3d4f057-0781-4660-8ce7-bc8514bf0945": {
+				"value": "4c9107c0-d7ce-44de-b50b-9e018b50dcaa",
+				"type": "Raw",
+				"name": "ObjectUUID",
+				"display_name": "ObjectUUID",
+				"ref": null
+			},
+			"67e727b5-c09a-4605-b81a-df371b569e6f": {
+				"value": "O~~~z~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+				"type": "String",
+				"name": "DragAndDropRank",
+				"display_name": "Drag And Drop Rank",
+				"ref": null
+			},
+			"5c06613a-b0bf-42c6-93a5-651c1879aa59": {
+				"value": "NONE",
+				"type": "String",
+				"name": "TestCaseStatus",
+				"display_name": "Test Case Status",
+				"ref": null
+			},
+			"301c3b83-a1f8-408c-883a-634d51493e60": {
+				"value": {
+					"value": "None",
+					"ordinal_index": 0
+				},
+				"type": "Rating",
+				"name": "Resolution",
+				"display_name": "Resolution",
+				"ref": null
+			},
+			"b0778de0-a927-11e2-9e96-0800200c9a66": {
+				"value": "#105cab",
+				"type": "String",
+				"name": "DisplayColor",
+				"display_name": "Display Color",
+				"ref": null
+			},
+			"500a0d67-9c48-4145-920c-821033e4a832": {
+				"value": "Lorem ipsum dolor sit ametssdddd1",
+				"type": "String",
+				"name": "Name",
+				"display_name": "Name",
+				"ref": null
+			},
+			"f8b767f9-b4e8-4e0e-beea-284526a55faf": {
+				"value": null,
+				"type": "Collection",
+				"name": "Attachments",
+				"display_name": "Attachments",
+				"ref": "https://us1.rallydev.com/slm/webservice/v2.x/Defect/203777583884/Attachments"
+			},
+			"bc19e2ba-64f3-4859-b2ca-3159edc55142": {
+				"value": {
+					"value": 0.0,
+					"units": "Hours"
+				},
+				"type": "Quantity",
+				"name": "TaskRemainingTotal",
+				"display_name": "Task Remaining Total",
+				"ref": null
+			},
+			"474b2c0e-92a0-4da3-ad01-32e4fa4bf845": {
+				"value": null,
+				"type": "String",
+				"name": "VerifiedInBuild",
+				"display_name": "Verified In Build",
+				"ref": null
+			},
+			"fb1e70dd-0be8-46fc-b2fa-f73d1f068c85": {
+				"value": null,
+				"type": "String",
+				"name": "c_Custom010105082",
+				"display_name": "01010508-2",
+				"ref": null
+			},
+			"fcbb7a25-7180-406e-8fdb-84527a006c17": {
+				"value": "2018-12-05T20:08:05.747Z",
+				"type": "Date",
+				"name": "FlowStateChangedDate",
+				"display_name": "Flow State Changed Date",
+				"ref": null
+			},
+			"55c5512a-1518-4944-8597-3eb91875e8d1": {
+				"value": "DE1",
+				"type": "String",
+				"name": "FormattedID",
+				"display_name": "Formatted ID",
+				"ref": null
+			},
+			"fd9e708c-402d-c1c8-9a4c-6c7802432ae5": {
+				"value": "DE",
+				"type": "String",
+				"name": "FormattedIDPrefix",
+				"display_name": "Formatted ID Prefix",
+				"ref": null
+			},
+			"aad205e0-2fbe-11e4-8c21-0800200c9a66": {
+				"value": {
+					"name": "In-Progress",
+					"ref": "https://us1.rallydev.com/slm/webservice/v2.x//3bd8f790-a3bd-4414-9858-f4ce58cc89c7",
+					"detail_link": null,
+					"id": "3bd8f790-a3bd-4414-9858-f4ce58cc89c7",
+					"order_index": 2,
+					"object_type": "State"
+				},
+				"type": "State",
+				"name": "ScheduleState",
+				"display_name": "Schedule State",
+				"ref": null
+			},
+			"17f72ea6-04fd-449e-925c-89ac079c0668": {
+				"value": {
+					"name": "REDACTED Workspace",
+					"ref": "https://us1.rallydev.com/slm/webservice/v2.x/workspace/3aeed7d9-d244-49f1-9c45-a70430e07211",
+					"detail_link": "https://us1.rallydev.com/slm/#/detail/workspace/198278166140",
+					"id": "3aeed7d9-d244-49f1-9c45-a70430e07211",
+					"object_type": "Workspace"
+				},
+				"type": "Workspace",
+				"name": "Workspace",
+				"display_name": "Workspace",
+				"ref": null
+			},
+			"ba12d602-22b1-4960-be92-8b453791dfe7": {
+				"value": null,
+				"type": "Date",
+				"name": "AcceptedDate",
+				"display_name": "Accepted Date",
+				"ref": null
+			},
+			"1160ddd6-86cf-4cce-883b-2465e993832a": {
+				"value": "2019-01-17T00:06:04.873Z",
+				"type": "Date",
+				"name": "LastUpdateDate",
+				"display_name": "Last Update Date",
+				"ref": null
+			},
+			"8a893977-e4a3-453c-9b13-7d8e93a600e1": {
+				"value": 0,
+				"type": "Integer",
+				"name": "PassingTestCaseCount",
+				"display_name": "Passing Test Case Count",
+				"ref": null
+			},
+			"6776da91-9729-42c7-bab1-395b596013f2": {
+				"value": [{
+						"name": "\\\\",
+						"ref": "https://us1.rallydev.com/slm/webservice/v2.x/tag/6fb07840-c71e-416e-8728-908bb0b95783",
+						"detail_link": null,
+						"id": "6fb07840-c71e-416e-8728-908bb0b95783",
+						"object_type": "Tag"
+					}, {
+						"name": "\\",
+						"ref": "https://us1.rallydev.com/slm/webservice/v2.x/tag/5ed10032-5b12-4149-9981-9c1576b6f441",
+						"detail_link": null,
+						"id": "5ed10032-5b12-4149-9981-9c1576b6f441",
+						"object_type": "Tag"
+					}, {
+						"name": "\\a",
+						"ref": "https://us1.rallydev.com/slm/webservice/v2.x/tag/61cebca2-0e16-4588-a1b6-3356b193d96e",
+						"detail_link": null,
+						"id": "61cebca2-0e16-4588-a1b6-3356b193d96e",
+						"object_type": "Tag"
+					}
+				],
+				"type": "Collection",
+				"name": "Tags",
+				"display_name": "Tags",
+				"ref": "https://us1.rallydev.com/slm/webservice/v2.x/Defect/203777583884/Tags"
+			},
+			"85d5d854-13b0-4bf3-88f3-a912038e728a": {
+				"value": [{
+						"name": "MI2",
+						"ref": "https://us1.rallydev.com/slm/webservice/v2.x/milestone/b1e57a18-77c5-48b8-a071-93095e8b8873",
+						"detail_link": null,
+						"id": "b1e57a18-77c5-48b8-a071-93095e8b8873",
+						"object_type": "Milestone"
+					}, {
+						"name": "MI1",
+						"ref": "https://us1.rallydev.com/slm/webservice/v2.x/milestone/ca1dab68-1621-4211-9d62-37e29ec4eecb",
+						"detail_link": null,
+						"id": "ca1dab68-1621-4211-9d62-37e29ec4eecb",
+						"object_type": "Milestone"
+					}
+				],
+				"type": "Collection",
+				"name": "Milestones",
+				"display_name": "Milestones",
+				"ref": "https://us1.rallydev.com/slm/webservice/v2.x/Defect/203777583884/Milestones"
+			},
+			"022199cd-ca37-470e-9fbf-258a2e4705a5": {
+				"value": null,
+				"type": "String",
+				"name": "c_Custom010105081",
+				"display_name": "01010508-1",
+				"ref": null
+			},
+			"d958b461-4379-459e-3074-9cff3ce63a05": {
+				"value": "P",
+				"type": "String",
+				"name": "ScheduleStatePrefix",
+				"display_name": "Schedule State Prefix",
+				"ref": null
+			},
+			"f005ba11-f005-ba11-f005-ba11f005ba11": {
+				"value": {
+					"name": "David LeDeaux",
+					"ref": "https://us1.rallydev.com/slm/webservice/v2.x/user/ae784947-d29d-4cf4-8ed0-e64ab75487eb",
+					"detail_link": "https://us1.rallydev.com/slm/#/detail/user/198278735016",
+					"id": "ae784947-d29d-4cf4-8ed0-e64ab75487eb",
+					"object_type": "User"
+				},
+				"type": "User",
+				"name": "CreatedBy",
+				"display_name": "Created By",
+				"ref": null
+			},
+			"3929a106-2b65-4d68-ab11-f7eb16ee83c5": {
+				"value": {
+					"name": "",
+					"ref": "https://us1.rallydev.com/slm/webservice/v2.x/blocker/03e623d4-56d3-469e-bd0f-2ba5a9ad583f",
+					"detail_link": null,
+					"id": "03e623d4-56d3-469e-bd0f-2ba5a9ad583f",
+					"object_type": "Blocker"
+				},
+				"type": "Blocker",
+				"name": "Blocker",
+				"display_name": "Blocker",
+				"ref": null
+			},
+			"52385f59-ec96-4fdc-802c-330afa1bac77": {
+				"value": "NONE",
+				"type": "String",
+				"name": "TaskStatus",
+				"display_name": "Task Status",
+				"ref": null
+			},
+			"5e005889-3891-4b29-b387-79b24ec299ab": {
+				"value": null,
+				"type": "Collection",
+				"name": "Duplicates",
+				"display_name": "Duplicates",
+				"ref": "https://us1.rallydev.com/slm/webservice/v2.x/Defect/203777583884/Duplicates"
+			},
+			"85f5ee6a-21b4-4fb0-8247-262e9adbc5c6": {
+				"value": false,
+				"type": "Boolean",
+				"name": "Recycled",
+				"display_name": "Recycled",
+				"ref": null
+			},
+			"7226736a-2f28-4fd6-bcd2-b4164291a330": {
+				"value": null,
+				"type": "String",
+				"name": "Package",
+				"display_name": "Package",
+				"ref": null
+			},
+			"f705ed17-9239-427e-8f34-10bbe088297e": {
+				"value": {
+					"name": "Rally Support",
+					"ref": "https://us1.rallydev.com/slm/webservice/v2.x/subscription/13eb4d62-3c4f-442e-b825-9f6786726d99",
+					"detail_link": "https://us1.rallydev.com/slm/#/detail/subscription/1154643",
+					"id": "13eb4d62-3c4f-442e-b825-9f6786726d99",
+					"object_type": "Subscription"
+				},
+				"type": "Subscription",
+				"name": "Subscription",
+				"display_name": "Subscription",
+				"ref": null
+			},
+			"70de157b-7681-490b-81b4-b1df5a78e807": {
+				"value": null,
+				"type": "String",
+				"name": "SalesforceCaseNumber",
+				"display_name": "Salesforce Case Number",
+				"ref": null
+			},
+			"400d3fc5-1929-4163-b3ef-d52c6b00733e": {
+				"value": {
+					"value": 0.0,
+					"units": "Hours"
+				},
+				"type": "Quantity",
+				"name": "TaskEstimateTotal",
+				"display_name": "Task Estimate Total",
+				"ref": null
+			},
+			"a87f604e-8eba-4f0f-8605-06acc4c8bc80": {
+				"value": "1",
+				"type": "String",
+				"name": "FoundInBuild",
+				"display_name": "Found In Build",
+				"ref": null
+			},
+			"95ac2b13-e4ee-413e-af83-42aaf4b53626": {
+				"value": "2018-03-08T18:05:27.895Z",
+				"type": "Date",
+				"name": "CreationDate",
+				"display_name": "Creation Date",
+				"ref": null
+			},
+			"557393c4-131b-4df7-b01e-5319b11edd24": {
+				"value": {
+					"name": "David LeDeaux",
+					"ref": "https://us1.rallydev.com/slm/webservice/v2.x/user/ae784947-d29d-4cf4-8ed0-e64ab75487eb",
+					"detail_link": "https://us1.rallydev.com/slm/#/detail/user/198278735016",
+					"id": "ae784947-d29d-4cf4-8ed0-e64ab75487eb",
+					"object_type": "User"
+				},
+				"type": "User",
+				"name": "Owner",
+				"display_name": "Owner",
+				"ref": null
+			},
+			"614a8d98-4637-4ab6-919b-12942de1a17a": {
+				"value": null,
+				"type": "Test Case",
+				"name": "TestCase",
+				"display_name": "Test Case",
+				"ref": null
+			},
+			"2143d16f-1183-43dc-94a1-f97192c240c1": {
+				"value": null,
+				"type": "Collection",
+				"name": "TestCases",
+				"display_name": "Test Cases",
+				"ref": "https://us1.rallydev.com/slm/webservice/v2.x/Defect/203777583884/TestCases"
+			},
+			"e4ac3499-61da-4613-8811-1b1d65138e9f": {
+				"value": null,
+				"type": "String",
+				"name": "c_Custom01120731",
+				"display_name": "0112073-1",
+				"ref": null
+			},
+			"f46996bb-f128-4865-a058-2624afb84df4": {
+				"value": null,
+				"type": "Collection",
+				"name": "Discussion",
+				"display_name": "Discussion",
+				"ref": "https://us1.rallydev.com/slm/webservice/v2.x/Defect/203777583884/Discussion"
+			},
+			"d3e4464d-2aa0-4727-903a-57a2af5316ba": {
+				"value": {
+					"value": "Normal",
+					"ordinal_index": 3
+				},
+				"type": "Rating",
+				"name": "Priority",
+				"display_name": "Priority",
+				"ref": null
+			},
+			"1641c41c-0248-fdf1-946a-bf41b4dd6279": {
+				"value": null,
+				"type": "Collection",
+				"name": "Connections",
+				"display_name": "Connections",
+				"ref": "https://us1.rallydev.com/slm/webservice/v2.x/Defect/203777583884/Connections"
+			},
+			"300ea523-b5ee-4153-9896-ccfe613f9b19": {
+				"value": null,
+				"type": "Collection",
+				"name": "Tasks",
+				"display_name": "Tasks",
+				"ref": "https://us1.rallydev.com/slm/webservice/v2.x/Defect/203777583884/Tasks"
+			},
+			"d9fca64c-6ebf-4a71-98a8-7d933503b0eb": {
+				"value": false,
+				"type": "Boolean",
+				"name": "ReleaseNote",
+				"display_name": "Release Note",
+				"ref": null
+			},
+			"f5b1fb22-6c15-44b5-a592-19189fafe5f2": {
+				"value": 103,
+				"type": "Integer",
+				"name": "VersionId",
+				"display_name": "VersionId",
+				"ref": null
+			},
+			"6a1045e7-3d05-41bb-a27e-5964515e3f6a": {
+				"value": false,
+				"type": "Boolean",
+				"name": "Expedite",
+				"display_name": "Expedite",
+				"ref": null
+			},
+			"727a8977-f3a5-4713-9415-ac97471cc736": {
+				"value": false,
+				"type": "Boolean",
+				"name": "Ready",
+				"display_name": "Ready",
+				"ref": null
+			},
+			"b6380b48-9e98-4f29-b0e9-4fc3fcf60e69": {
+				"value": {
+					"name": "In-Progress",
+					"ref": "https://us1.rallydev.com/slm/webservice/v2.x/flowstate/1ce737ea-8ed6-4081-932c-cf53527c6cd0",
+					"detail_link": null,
+					"id": "1ce737ea-8ed6-4081-932c-cf53527c6cd0",
+					"object_type": "FlowState"
+				},
+				"type": "Flow State",
+				"name": "FlowState",
+				"display_name": "Flow State",
+				"ref": null
+			},
+			"2c36fd0e-eb83-48cb-8e1d-25b6123b0003": {
+				"value": null,
+				"type": "String",
+				"name": "LastBuild",
+				"display_name": "Last Build",
+				"ref": null
+			},
+			"24a49498-e2d6-4ded-b200-313933da132e": {
+				"value": null,
+				"type": "Date",
+				"name": "ClosedDate",
+				"display_name": "Closed Date",
+				"ref": null
+			},
+			"c492410c-65c8-44f1-9ff0-cb56414ea8e0": {
+				"value": null,
+				"type": "Text",
+				"name": "c_Custom010891341",
+				"display_name": "01089134-1",
+				"ref": null
+			},
+			"cbb5095f-fa47-43f3-a728-ed6326ccd665": {
+				"value": {
+					"name": "1.1",
+					"ref": "https://us1.rallydev.com/slm/webservice/v2.x/release/382eb482-4aa5-4a40-a9c4-436dd4f5dd93",
+					"detail_link": "https://us1.rallydev.com/slm/#/detail/release/217133733940",
+					"id": "382eb482-4aa5-4a40-a9c4-436dd4f5dd93",
+					"object_type": "Release"
+				},
+				"type": "Release",
+				"name": "Release",
+				"display_name": "Release",
+				"ref": null
+			},
+			"24aa2a9e-8b98-4028-a999-ea6ae4d47150": {
+				"value": true,
+				"type": "Boolean",
+				"name": "Blocked",
+				"display_name": "Blocked",
+				"ref": null
+			},
+			"35435c5b-b91c-478d-969c-6821f7811e72": {
+				"value": null,
+				"type": "String",
+				"name": "c_KanbanState",
+				"display_name": "Kanban State",
+				"ref": null
+			},
+			"5d5ecd6a-12dc-4f2d-8f81-9be8e5ed9cd6": {
+				"value": null,
+				"type": "Boolean",
+				"name": "c_Custom01189789",
+				"display_name": "01189789",
+				"ref": null
+			},
+			"ae8ecc9f-b9a0-42a4-a6e3-c83d7f8a7070": {
+				"value": {
+					"name": "Sample Project",
+					"ref": "https://us1.rallydev.com/slm/webservice/v2.x/project/75b17c81-d104-4b56-8ca8-1f9c61387d80",
+					"detail_link": "https://us1.rallydev.com/slm/#/detail/project/198278166556",
+					"id": "75b17c81-d104-4b56-8ca8-1f9c61387d80",
+					"object_type": "Project"
+				},
+				"type": "Project",
+				"name": "Project",
+				"display_name": "Project",
+				"ref": null
+			},
+			"639d9d96-b69b-41fa-9087-6379053fe091": {
+				"value": {
+					"name": "Test Iteration",
+					"ref": "https://us1.rallydev.com/slm/webservice/v2.x/iteration/a24d51ee-9232-4661-95a3-11d939dda6b4",
+					"detail_link": "https://us1.rallydev.com/slm/#/detail/iteration/206602608936",
+					"id": "a24d51ee-9232-4661-95a3-11d939dda6b4",
+					"object_type": "Iteration"
+				},
+				"type": "Iteration",
+				"name": "Iteration",
+				"display_name": "Iteration",
+				"ref": null
+			},
+			"74ce3e33-8c51-43ca-a72e-4c6bdf95b387": {
+				"value": "33",
+				"type": "String",
+				"name": "FixedInBuild",
+				"display_name": "Fixed In Build",
+				"ref": null
+			},
+			"70f4603e-8bb2-4307-a9ff-06ccfbd972ae": {
+				"value": null,
+				"type": "Date",
+				"name": "TargetDate",
+				"display_name": "Target Date",
+				"ref": null
+			},
+			"f6d58321-4699-417d-8ae1-c102666321e7": {
+				"value": 61938,
+				"type": "Integer",
+				"name": "LatestDiscussionAgeInMinutes",
+				"display_name": "Latest Discussion Age In Minutes",
+				"ref": null
+			},
+			"0bb01d62-2d0d-4f08-964e-a2510a9f7650": {
+				"value": 0,
+				"type": "Integer",
+				"name": "TestCaseCount",
+				"display_name": "Test Case Count",
+				"ref": null
+			},
+			"3c358996-adbd-48bc-bd6e-22e1338c8d57": {
+				"value": "dfgdfgi;p;io;io;df",
+				"type": "String",
+				"name": "BlockedReason",
+				"display_name": "Blocked Reason",
+				"ref": null
+			},
+			"3706b404-4b98-43d0-ba87-4843c7a1470c": {
+				"value": null,
+				"type": "String",
+				"name": "c_Custom008927371display",
+				"display_name": "00892737-1 (display)",
+				"ref": null
+			},
+			"7f25a8ae-6948-49a9-92f5-b437ca213251": {
+				"value": {
+					"value": 32.0,
+					"units": "Points"
+				},
+				"type": "Quantity",
+				"name": "PlanEstimate",
+				"display_name": "Plan Estimate",
+				"ref": null
+			},
+			"09877ea1-2678-4e62-83e9-748d851913fc": {
+				"value": {
+					"name": "RevisionHistory_203777583888",
+					"ref": "https://us1.rallydev.com/slm/webservice/v2.x/revisionhistory/29315861-24f3-41eb-bd71-d3dc73966b4a",
+					"detail_link": null,
+					"id": "29315861-24f3-41eb-bd71-d3dc73966b4a",
+					"object_type": "RevisionHistory"
+				},
+				"type": "Revision History",
+				"name": "RevisionHistory",
+				"display_name": "Revision History",
+				"ref": null
+			},
+			"b85b6cbf-854f-4d34-8c5f-0e0429f43e5e": {
+				"value": null,
+				"type": "Collection",
+				"name": "c_MultivalueTest",
+				"display_name": "Multivalue Test",
+				"ref": "https://us1.rallydev.com/slm/webservice/v2.x/Defect/203777583884/c_MultivalueTest"
+			},
+			"b8deb4b7-8b43-442f-8026-6c0dfa795093": {
+				"value": "2018-12-20T17:40:08.994Z",
+				"type": "Date",
+				"name": "OpenedDate",
+				"display_name": "Opened Date",
+				"ref": null
+			},
+			"50d6cae3-e2be-417a-93c9-2b952db23617": {
+				"value": {
+					"name": "David LeDeaux",
+					"ref": "https://us1.rallydev.com/slm/webservice/v2.x/user/ae784947-d29d-4cf4-8ed0-e64ab75487eb",
+					"detail_link": "https://us1.rallydev.com/slm/#/detail/user/198278735016",
+					"id": "ae784947-d29d-4cf4-8ed0-e64ab75487eb",
+					"object_type": "User"
+				},
+				"type": "User",
+				"name": "SubmittedBy",
+				"display_name": "Submitted By",
+				"ref": null
+			},
+			"b5bae981-bfe6-4980-844a-b5ecf3e9a156": {
+				"value": "<span class=\"mention\" contenteditable=\"false\" data-mention=\"8f15c8ae-96f8-43bd-9379-7ebf8e703453\">@DL D</span>&nbsp;<img src=\"https://i.imgur.com/UE5bd27.gif\" />ss&nbsp;\n<div>&nbsp;</div>\n\n<div>@REDACTED@rallydev.com</div>\n\n<div>&nbsp;</div>\n\n<div>&nbsp;</div>\n\n<div>&nbsp;asfd</div>\n\n<div>sdfsdfsdssfdsdf</div>\n\n<div>\n<p class=\"rally-rte-class-0061402a80ec6\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla blandit malesuada ex, a suscipit magna tempor vel. Aliquam rutrum diam vitae nisl pulvinar accumsan et vel mi. Praesent suscipit luctus odio, et dignissim arcu posuere ac. Mauris vel nunc at enim laoreet laoreet. Praesent a tellus porta, tempor ipsum in, tempus enim. In viverra, leo sit amet aliquet malesuada, eros orci tempor odio, quis pretium odio nulla vitae tortor. Mauris id felis nec felis dignissim malesuada. Donec ultrices ligula eget ullamcorper viverrak<br />\n&nbsp;</p>\n\n<ol>\n <li class=\"rally-rte-class-0061402a80ec6\">&nbsp;</li>\n <li class=\"rally-rte-class-0061402a80ec6\">1</li>\n <li class=\"rally-rte-class-0061402a80ec6\">2</li>\n <li class=\"rally-rte-class-0061402a80ec6\">3</li>\n <li class=\"rally-rte-class-0061402a80ec6\">4sdf</li>\n</ol>\n</div>\n",
+				"type": "Text",
+				"name": "Description",
+				"display_name": "Description",
+				"ref": null
+			},
+			"9e551791-752d-4963-9c44-7df5f9bcab16": {
+				"value": null,
+				"type": "Collection",
+				"name": "DefectSuites",
+				"display_name": "Defect Suites",
+				"ref": "https://us1.rallydev.com/slm/webservice/v2.x/Defect/203777583884/DefectSuites"
+			},
+			"1f4c4957-73af-4ad5-96d0-8482395bd06b": {
+				"value": {
+					"formatted_id": "US2",
+					"name": "Test From User Story Page (Add Button)",
+					"ref": "https://us1.rallydev.com/slm/webservice/v2.x/hierarchicalrequirement/b5742b37-cf95-4c73-9066-31edc5109711",
+					"detail_link": "https://us1.rallydev.com/slm/#/detail/userstory/203511065376",
+					"id": "b5742b37-cf95-4c73-9066-31edc5109711",
+					"object_type": "HierarchicalRequirement"
+				},
+				"type": "Hierarchical Requirement",
+				"name": "Requirement",
+				"display_name": "Requirement",
+				"ref": null
+			},
+			"817f7011-f514-4136-a1e0-871805c82e6d": {
+				"value": false,
+				"type": "Boolean",
+				"name": "AffectsDoc",
+				"display_name": "Affects Doc",
+				"ref": null
+			},
+			"e0caf6dd-304b-447e-9d61-09ac9c96e85a": {
+				"value": {
+					"value": "Open",
+					"ordinal_index": 2
+				},
+				"type": "Rating",
+				"name": "State",
+				"display_name": "State",
+				"ref": null
+			},
+			"2910ca71-9779-4e7b-8fcf-d718c919aff8": {
+				"value": 203777583884,
+				"type": "Integer",
+				"name": "ObjectID",
+				"display_name": "Object ID",
+				"ref": null
+			},
+			"193e2943-6d07-4b14-8f66-e9033ee65685": {
+				"value": null,
+				"type": "Date",
+				"name": "LastRun",
+				"display_name": "Last Run",
+				"ref": null
+			},
+			"80cf4d42-2355-43ce-a34c-9a2204b585b6": {
+				"value": {
+					"value": 0.0,
+					"units": "Hours"
+				},
+				"type": "Quantity",
+				"name": "TaskActualTotal",
+				"display_name": "Task Actual Total",
+				"ref": null
+			},
+			"c14d0722-3842-7c4c-57cc-fcbf9aa4cbb5": {
+				"value": 1,
+				"type": "Integer",
+				"name": "FormattedIDID",
+				"display_name": "Formatted ID ID",
+				"ref": null
+			},
+			"627194cd-4169-4918-ad70-3d927dd126bb": {
+				"value": null,
+				"type": "Collection",
+				"name": "Changesets",
+				"display_name": "Changesets",
+				"ref": "https://us1.rallydev.com/slm/webservice/v2.x/Defect/203777583884/Changesets"
+			},
+			"4fab0b61-ba80-4a73-9675-8b6c9d30797d": {
+				"value": null,
+				"type": "String",
+				"name": "SalesforceCaseID",
+				"display_name": "Salesforce Case ID",
+				"ref": null
+			},
+			"132f4604-7855-4de7-8179-652e05f02fe5": {
+				"value": "2018-11-29T21:52:19.382Z",
+				"type": "Date",
+				"name": "InProgressDate",
+				"display_name": "In Progress Date",
+				"ref": null
+			},
+			"9b9a0e89-e73d-43b9-a1a8-3ef18eacef3f": {
+				"value": null,
+				"type": "Test Case Result",
+				"name": "TestCaseResult",
+				"display_name": "Test Case Result",
+				"ref": null
+			},
+			"2f537510-66bb-4275-9103-15ed29a5aac7": {
+				"value": null,
+				"type": "String",
+				"name": "TargetBuild",
+				"display_name": "Target Build",
+				"ref": null
+			},
+			"69d951f8-a2a5-4199-9d1f-260cde7db768": {
+				"value": {
+					"value": "None",
+					"ordinal_index": 0
+				},
+				"type": "Rating",
+				"name": "Environment",
+				"display_name": "Environment",
+				"ref": null
+			},
+			"6a612101-7a49-4a58-ac19-243c2c8c3c8a": {
+				"value": null,
+				"type": "Collection",
+				"name": "MixedChildren",
+				"display_name": "Mixed Children",
+				"ref": "https://us1.rallydev.com/slm/webservice/v2.x/Defect/203777583884/MixedChildren"
+			},
+			"abb5af67-e70a-4a98-ad21-26f71bf4fe83": {
+				"value": "",
+				"type": "Text",
+				"name": "Notes",
+				"display_name": "Notes",
+				"ref": null
+			},
+			"244502f5-6bad-4a39-88d4-86446f43c399": {
+				"value": {
+					"value": "Major Problem",
+					"ordinal_index": 2
+				},
+				"type": "Rating",
+				"name": "Severity",
+				"display_name": "Severity",
+				"ref": null
+			}
+		},
+		"subscription_id": 209,
+		"message_id": "200dc445-2052-4ed4-aff8-791660503c17",
+		"project": {
+			"uuid": "75b17c81-d104-4b56-8ca8-1f9c61387d80",
+			"name": "Sample Project"
+		},
+		"id": "4c9107c0-d7ce-44de-b50b-9e018b50dcaa",
+		"detail_link": "https://us1.rallydev.com/slm/#/detail/defect/203777583884",
+		"message_version": 2,
+		"changes": {
+			"f5b1fb22-6c15-44b5-a592-19189fafe5f2": {
+				"value": 103,
+				"old_value": 102,
+				"added": null,
+				"removed": null,
+				"type": "Integer",
+				"name": "VersionId",
+				"display_name": "VersionId",
+				"ref": null
+			},
+			"7f25a8ae-6948-49a9-92f5-b437ca213251": {
+				"value": {
+					"value": 32.0,
+					"units": "Points"
+				},
+				"old_value": {
+					"value": 16.0,
+					"units": "Points"
+				},
+				"added": null,
+				"removed": null,
+				"type": "Quantity",
+				"name": "PlanEstimate",
+				"display_name": "Plan Estimate",
+				"ref": null
+			}
+		},
+		"action": "Updated"
+	},
+	"rule": {
+		"LastUpdateDate": "2019-01-17T00:05:58.289Z",
+		"Expressions": [{
+				"AttributeID": null,
+				"AttributeName": "FormattedID",
+				"Operator": "=",
+				"Value": "DE1"
+			}
+		],
+		"SubscriptionID": 209,
+		"LastWebhookResponseTime": null,
+		"ObjectTypes": ["Defect"],
+		"LastSuccess": null,
+		"LastStatus": null,
+		"_type": "webhook",
+		"OwnerID": "2d8dc501-829f-4564-bfd9-REDACTED",
+		"FireCount": 3,
+		"TargetUrl": "https://script.google.com/macros/s/REDACTED/exec",
+		"CreatedBy": null,
+		"_objectVersion": 4,
+		"Disabled": false,
+		"ErrorCount": 3,
+		"Name": "DavidL Google Integration",
+		"LastFailure": null,
+		"AppName": "DavidL Google Integration",
+		"ObjectUUID": "1b039602-2075-416a-9487-REDACTED",
+		"CreationDate": "2019-01-16T23:43:53.423Z",
+		"AppUrl": "https://script.google.com/macros/s/REDACTED/exec"
+	}
+}
